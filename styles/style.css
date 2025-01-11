@@ -31,6 +31,16 @@ nav{
 .blue-1 {
     background-color: #C6E4D6;
 }
+.blue-2 {
+    background-color: #5490F5;
+}
+.green-2 {
+    background-color: #09A15C;
+}
+.yellow-2 {
+    background-color: #FFC239;
+}
+
 .btn-primary {
     border-color: #006A50;
     color: #006A50;
@@ -92,5 +102,68 @@ nav ul li a {
     padding: 17px 34px;
     color: #FFFFFF;
     margin-top: 24px;
+}
 
+.vision-section {
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+
+.section-description {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 70%;
+}
+
+.vision-container {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+.vision-1 {
+    padding: 32px;
+    background-color: rgba(84, 144, 245, .2);
+    height: 325px;
+    width: 410px;
+    border-radius: 16px;
+}
+.vision-2 {
+    padding: 32px;
+    background-color: #C6E4D6;
+    height: 325px;
+    width: 410px;
+    border-radius: 16px;
+}
+.vision-3 {
+    padding: 32px;
+    background-color: #F7EBCF;
+    height: 325px;
+    width: 410px;
+    border-radius: 16px;
+}
+.vision-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+.vision-description {
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+
+.sec-pad {
+    padding: 80px 160px 80px 160px;
+}
+
+.btn-ter {
+
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    align-self: flex-end;
 }
