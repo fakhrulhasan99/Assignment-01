@@ -1,14 +1,19 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .fira-sans-bold {
     font-family: "Fira Sans", serif;
     font-style: normal;
   }
 
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 24px 160px;
 }
 
 .nav-title{
@@ -20,7 +25,12 @@ nav{
 .green-1 {
     color: #006A50;
 }
-
+.black-1 {
+    color: #0E0E0E;
+}
+.blue-1 {
+    background-color: #C6E4D6;
+}
 .btn-primary {
     border-color: #006A50;
     color: #006A50;
@@ -38,4 +48,49 @@ nav ul li a {
     text-decoration: none;
     font-size: 18;
     font-weight: 600;
+}
+
+#hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+    margin: 20px 160px;
+    border-radius: 24px;
+}
+
+.hero-content {
+    max-width: 622px;
+}
+
+.hero-pic {
+    width: 475px;
+}
+
+.sub-title {
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 50%;
+}
+
+.main-title {
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.first-titles {
+    display: flex;
+}
+.btn-secondary {
+    border: none;
+    background-color: #006A50;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 17px 34px;
+    color: #FFFFFF;
+    margin-top: 24px;
+
 }
