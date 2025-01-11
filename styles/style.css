@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 .fira-sans-bold {
     font-family: "Fira Sans", serif;
     font-style: normal;
@@ -114,6 +116,7 @@ nav ul li a {
     font-size: 16px;
     font-weight: 400;
     opacity: 70%;
+    padding: 24px 0px 32px 0px;
 }
 
 .vision-container {
@@ -177,6 +180,7 @@ nav ul li a {
     justify-content: space-between;
     padding: 48px;
     background-color: #FFFFFF;
+    border-radius: 24px;
 }
 
 .title-des {
@@ -218,5 +222,71 @@ nav ul li a {
     padding: 13px 26px;
     background-color: #006A50;
     border-radius: 8px;
+    border: none;
+}
+
+.donation {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.donation-des {
+    padding-bottom: 32px;
+}
+
+.tk-btn {
+    text-align: center;
+}
+
+.dn-btn {
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 80%;
+
+}
+
+.dn-btn-2 {
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 80%;
+    margin: 0px 24px;
+}
+
+.dn-btn-3 {
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 80%;
+    margin-left: 24px;
+}
+
+.dn-btn-4 {
+    padding: 20px 40px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 30%;
+    width: 1032px;
+    display: block;
+    margin:32px auto;
+}
+.dn-btn-5 {
+    padding: 17px 34px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin: auto;
     border: none;
 }
